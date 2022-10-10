@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    height: 94px;
+    @media(max-width: $tabletPoint) {
+        margin: 0 16px;
+    }
+}
+
+.image{
+    height: 30px;
+}
+
+.button{
+    width: 124px;
+    @media(max-width: $mobilePoint) {
+        display: none;
+    }
+}
